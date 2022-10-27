@@ -60,6 +60,7 @@ func NewDiv() *Div {
 ````
 
 上面demo组件就会变成显示子组件的文字, 点击她就会弹出内容。
+你还可以添加其他函数, 获取覆盖vue文件里的函数
 
 ````go
 d.AddMethods("funame", `function () { alert("动态新增函数"); }`)
